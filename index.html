@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>300x600</title>
+    <!-- IMPORTANT: DETERMINES THE SIZE OF YOUR AD (See Readme)--> 
+    <meta name="ad.size" content="width=300,height=600">
+
+    <meta data-template-name="Template_H5T_expanding-300x250-ytplayer">
+
+    <link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet">
+
+    <!-- GREENSOCK -->
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/CSSPlugin.min.js"></script>
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/easing/EasePack.min.js"></script>
+    <!-- <script async src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenLite.min.js"></script> -->
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TimelineLite.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+
+
+    <!-- OUR SCRIPTS -->
+    
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    
+    <!--OPTIONAL ADDITIONAL STYLESHEET-->
+    <link rel="stylesheet" type="text/css" href="carousel.css">
+
+    <!--DCStudio links-->
+
+
+  <!--DCStudio scripts-->
+  <script type="text/javascript" src="https://s0.2mdn.net/ads/studio/Enabler.js"></script>
+  <script type="text/javascript" src="https://www.gstatic.com/external_hosted/polymer/custom.elements.min.js"></script>
+
+
+
+<!--
+ * Dynamic Content Enable code for Profile: 1108848
+ *
+ * The following code initializes the following dynamic variables for
+ * development testing and live serving of Fields associated to the above profile
+-->
+
+<!-- DynamicContent Start: HTML5 invocation code. 
+<script type="text/javascript">
+
+
+</script>-->
+
+<!--
+ * You may access the variables in the following manner
+ * AFTER the Studio Enabler is initialized.
+ * var image1 = dynamicContent.Profile[0].image1;
+ * Note: be sure to use "dynamicContent", not "devDynamicContent"
+ * Note: be sure to use ExitOverride to create your exit URL dynamically; follow the instructions on our Help center: https://support.google.com/richmedia/answer/2664807
+-->
+
+</head>
+
+<body>
+   
+
+<div id="container">
+<!-- Collapsed Conent -->
+
+  <div id="collapsedContent">     
+
+      <!-- **AUTO DIV START** -->
+			         
+      <div id="bg" class="sprite"></div>     
+      <div id="background" class="sprite"></div>
+      <div id="headline" class="sprite"></div>
+      <div id="cta_btn" class="sprite"></div>
+      <div id="border" class="sprite"></div>
+      <div id="collapsedExit"></div>
+      
+          <div id="exit_url" class="sprite">
+
+              <div id="carousel">
+                <div class="slide" data-slidenum="0">
+                  <img src="" id="image1" />
+                </div>
+                <div class="slide" data-slidenum="1">
+                  <img src="" id="image2" />
+                </div>
+                <div class="slide" data-slidenum="2">
+                  <img src="" id="image3" />
+                </div>
+                <div class="slide" data-slidenum="3">
+                  <img src="" id="image4" />
+                </div>
+                <div class="slide" data-slidenum="4">
+                  <img src="" id="image5" />
+                </div>
+                
+<!--            <a class="prev hero-nav">&#10094</a>
+                <a class="next hero-nav">&#10095</a> -->
+              </div>
+
+              <!-- <img src="" id="image1" /> -->
+          </div>
+              <div id="carousel_btn">
+                <a class="prev hero-nav"><!-- &#10094 -->&lt;</a>
+                <a class="next hero-nav"><!-- &#10095 -->&gt;</a>
+              </div>
+      <!-- <div class="sprite" id="btn_expand"></div> -->
+      
+      <!-- <div id="expandButton"></div> -->
+
+        <div id="cta" class="sprite">
+             <div id="ctabg" class="sprite"></div>
+             <div id="cta_Copy" class="sprite"></div>
+             <div id="cta_Arrow" class="sprite"></div>
+        </div>
+                    
+      <div class="sprite" id="curtain"></div> 
+
+  </div>
+
+      <!-- Expand Content -->
+      <div id="expandedContent">
+          
+            <div id="expandedExit"></div>        
+            <div id="collapseButton"></div>
+
+       <!-- <div class="feature-expanded" id="feature-expanded"></div> -->
+
+      </div>
+    </div>
+    <script>
+ 
+    </script>
+
+
+
+</body>
+
+<script type="text/javascript" src="main.js"></script>
+<script type="text/javascript" src="carousel.js"></script>
+
+<script type="text/javascript">
+    window.onload = function(){
+        preInit();
+    }
+
+</script>
+
+</html>
